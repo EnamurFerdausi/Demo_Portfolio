@@ -1,0 +1,147 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.blue-color {
+    color: rgb(13, 128, 204);
+
+}
+
+#left-border {
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+    border-radius: 500px;
+    padding-left: 10px;
+    height: 140px;
+
+
+}
+
+.flexible-container {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 1%;
+}
+
+.half-width img {
+    width: 80%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px; 
+}
+#half-width{
+    width: 70%;
+    padding-left: 5%;
+    padding-right: 1%;
+}
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(119, 221, 221), rgb(73, 73, 243)););
+    padding:10px 40px;
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+}
+
+.top-banner {
+    background-image: url(images/top-banner3.jpg);
+    background-repeat: no-repeat;
+}
+
+.about-me {
+    background-image: url(side2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.about-me-hr {
+
+}
+#img-height{
+    height: 80%;
+}
+.center {
+    text-align: center;
+
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    text-align: center;
+}
+#background-education {
+background-color: rgb(243, 217, 188);
+}
+#background-experience {
+    background-color: rgb(245, 245, 195);
+}
+#background-skill{
+    background-color: rgb(248, 211, 211);
+}
+
+#experience-background {
+    background-image: url(images/download.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    border-left: 7px solid;
+    border-image-slice: 1;
+}
+
+.contact-me {
+    width: 20%;
+    margin-left: 10%;
+    margin-right: 20%;
+    margin-bottom: 1%;
+    box-shadow: 10px 5px 10px gray;
+    border-radius: 15px;
+    padding-left: 1px;
+    padding-right: 1px;
+    background-color: rgb(14, 108, 185);
+    text-align: center;
+
+}
+
+#contact-me-color {
+    color: forestgreen;
+}
+#message-box {
+height: 50px;
+}
+.contact-more{
+font-style:italic;
+color: forestgreen;
+}
+.footer-style {
+    text-align: center;
+    background-color: black;
+    font-style: bold;
+    padding-top: 20px;
+    color: white;
+    margin: 0%;
+    height: 150px;
+}
+
+.footer-color {
+    color: blue;
+}
