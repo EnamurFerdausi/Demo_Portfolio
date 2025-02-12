@@ -98,7 +98,91 @@ background-color: rgb(243, 217, 188);
 }
 #background-skill{
     background-color: rgb(248, 211, 211);
+    animation-duration: 1s;
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards;
+    animation-iteration-count:infinite;
 }
+.skills-container li.html::after{
+    animation-name: html;
+}
+
+@keyframes html{
+    to{
+        width: 90%;
+    }
+}
+
+.skills-container li.css::after{
+    animation-name: css;
+}
+
+@keyframes css{
+    to{
+        width: 70%;
+    }
+}
+
+.skills-container li.js::after{
+    animation-name: js;
+}
+
+@keyframes js{
+    to{
+        width: 60%;
+    }
+}
+
+.skills-container li.c::after{
+    animation-name: c;
+}
+
+@keyframes c{
+    to{
+        width: 30%;
+    }
+}
+
+.skills-container li.cplus::after{
+    animation-name: cp;
+}
+
+@keyframes cp{
+    to{
+        width: 40%;
+    }
+}
+
+.skills-container li.java::after{
+    animation-name: java;
+}
+
+@keyframes java{
+    to{
+        width: 35%;
+    }
+}
+
+.skills-container li.python::after{
+    animation-name: py;
+}
+
+@keyframes py{
+    to{
+        width: 25%;
+    }
+}
+
+.skills-container li.git::after{
+    animation-name: git;
+}
+
+@keyframes git{
+    to{
+        width: 20%;
+    }
+}
+
 
 #experience-background {
     background-image: url(images/download.jpg);
